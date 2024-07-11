@@ -46,7 +46,7 @@ function addGamesToPage(games) {
             <img src="${games[i].img}" alt="${games[i].name}" class="game-img" />
             <h2>${games[i].name}</h2>
             <p>${games[i].description}</p>
-            <p>Price: ${games[i].price}</p>
+            <p>Backers: ${games[i].backers}</p>
         `;
 
 
