@@ -54,7 +54,9 @@ function addGamesToPage(games) {
         gamesContainer.appendChild(gameCard);
     }
 }
-addGamesToPage(GAMES_JSON);
+// addGamesToPage(GAMES_JSON);
+filterFundedOnly()
+
 // call the function we just defined using the correct variable
 // later, we'll call this function using a different list of games
 
